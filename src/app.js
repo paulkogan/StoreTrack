@@ -1,9 +1,6 @@
 import React, {} from "react";
 import ReactDOM, {} from "react-dom";
 import AppRouter, {} from "./components/appRouter"
-import DashPage, {} from "./components/dash-page"
-import ConnectedDashList, {} from "./components/connected-dash-page"
-
 
 import {Provider} from "react-redux";
 import {createStore, combineReducers} from "redux";

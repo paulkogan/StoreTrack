@@ -19,10 +19,43 @@ button:focus {
   outline:0;
 }
 
+.center_container {
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.header {
+  background: #172226;
+  color: white;
+  margin-bottom: 0px;
+  padding: 40px 0px;
+  margin-left: 0px;
+
+}
+
+
+.header__title {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+
+.header__subtitle {
+  color: ivory;
+  font-weight: 100;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+
+
 .head-links{
       margin-left: 30px;
       //font-weight: bold;
       color: lightsteelblue;
+
 }
 
 .is-active:before {
@@ -60,7 +93,7 @@ button:focus {
 
 .exp-total {
     padding-bottom: 10px;
-    padding-left: 48px;
+    padding-left: 40px;
 }
 
 a {

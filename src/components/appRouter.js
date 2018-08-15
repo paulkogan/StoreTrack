@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Switch, Link, NavLink } from "react-router-dom";
 
 import EditPage, {} from "./edit-page"
 import Header, {} from "./header"
-import StoreApp, {} from "./storeApp"
+//import StoreApp, {} from "./storeApp"
 import ConnectedDashList, {} from "./connected-dash-page"
 import ConnectedStoreApp, {} from "./connected-storeApp"
 import ConnectedAddPage, {} from "./connected-add-page"
@@ -28,6 +28,7 @@ const AppRouter = () => (
   <BrowserRouter>
     <div>
           <Header />
+          <div className="center_container">
           <Switch>
               <Route path = "/" component = {ConnectedStoreApp} exact={true}/>
               <Route path = "/store" component = {ConnectedStoreApp} />
@@ -36,6 +37,7 @@ const AppRouter = () => (
               <Route path = "/edit/:id" component = {EditPage} />
               <Route component = {notFoundPage} />
           </Switch>
+          </div>
     </div>
   </BrowserRouter>
 );
